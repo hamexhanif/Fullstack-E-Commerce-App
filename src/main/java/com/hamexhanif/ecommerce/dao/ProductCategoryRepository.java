@@ -5,7 +5,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 import com.hamexhanif.ecommerce.entity.ProductCategory;
 
-// @RepositoryRestResource(collectionResourceRel = "productCategory", path = "product-category")
+@RepositoryRestResource(collectionResourceRel = "productCategory", path = "product-category")
 public interface ProductCategoryRepository extends JpaRepository<ProductCategory, Long>{
 
 }
